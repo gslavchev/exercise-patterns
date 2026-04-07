@@ -1,6 +1,6 @@
 package decorator;
 
-public abstract class StudentDecorator {
+public abstract class StudentDecorator extends Student{
 
     protected Student student;
 
