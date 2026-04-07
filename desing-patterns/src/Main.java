@@ -19,7 +19,7 @@ public class Main {
         Task task = TaskFactory.createTask(studentType);
         System.out.println(task.getTask());
 
-        Student student = new BaseStudent();
+        Student student = new Student();
         student = new Telepathy(student);
         student = new InfraredVision(student);
 

@@ -1,6 +1,6 @@
 package decorator;
 
-public abstract class StudentDecorator implements Student {
+public abstract class StudentDecorator {
 
     protected Student student;
 

@@ -1,6 +1,8 @@
 package decorator;
 
-public interface Student {
+public class Student {
 
-    String work();
+    public String work() {
+        return "Решава задачата";
+    }
 }
